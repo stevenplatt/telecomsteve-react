@@ -1,7 +1,5 @@
 # telecomsteve (React Edition)
 
-A React implementation of https://telecomsteve.com
-
 ![Telecom Steve Logo](./telecomsteve-react/public/telecomsteve_horizontal.svg)
 
 ## Building telecomsteve
