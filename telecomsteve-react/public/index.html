@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/main.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/text_scramble.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -24,10 +26,36 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>telecomsteve</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
   </head>
   <body>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div class="sidenav">
+        <div class="navblock">
+            <div class="navblock_text">
+                <a href="{{ url_for('home') }}">home</a>
+                <a href="{{ url_for('research') }}">research</a>
+                <a href="{{ url_for('engineering') }}">feeds</a>
+                <a href="{{ url_for('about') }}">about me</a>
+                <span class="contactBtn">
+                    <a href="mailto:hello@telecomsteve.com">contact</a>
+                </span>
+            </div>
+        </div>
+        <!-- <div class="footer">
+            <a href="https://github.com/stevenplatt/ResearchEng-portfolio" target="_blank">Made with ❤️ in Miami</a>
+        </div> -->
+    </div>
+
+    <button onclick="topFunction()" id="scrollBtn" title="Go to top">top</button>
+    <script type="text/javascript" src="../static/js/main.js"></script>
+
+    
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -39,5 +67,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    
   </body>
 </html>
