@@ -1,6 +1,6 @@
 # telecomsteve (React Edition)
 
-![Telecom Steve Logo](./telecomsteve-react/public/media/telecomsteve_logo.png)
+![Telecom Steve Logo](./telecomsteve-react/public/telecomsteve.svg)
 
 ## Building & Serving
 
