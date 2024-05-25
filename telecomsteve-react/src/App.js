@@ -2,23 +2,23 @@ import logo from './logo.svg';
 import './App.css';
 
 export function About() {
-
+    return (App());
 }
 
 export function Contact() {
-
+    return (App());
 }
 
 export function Research() {
-
+    return (App());
 }
 
 export function Consulting() {
-
+    return (App());
 }
 
 export function News() {
-
+    return (App());
 }
 
 export function App() {
