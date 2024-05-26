@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import {BrowserRouter, Routes, Route} from "react-router-dom";
-import { App, About, Contact, Research, Consulting, News } from './App';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Homepage from './Homepage';
+import About from './About';
+import Research from './Research';
+import Consulting from './Consulting';
+import News from './News';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
         <Routes>
-            <Route path="/" element={<App />} />
+            <Route path="/" element={<Homepage />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
             <Route path="/research" element={<Research />} />
             <Route path="/consulting" element={<Consulting />} />
             <Route path="/news" element={<News />} />
