@@ -5,7 +5,6 @@ import Homepage from './Homepage';
 import About from './About';
 import Research from './Research';
 import Consulting from './Consulting';
-import News from './News';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,7 +15,6 @@ root.render(
             <Route path="/about" element={<About />} />
             <Route path="/research" element={<Research />} />
             <Route path="/consulting" element={<Consulting />} />
-            <Route path="/news" element={<News />} />
         </Routes>
     </BrowserRouter>
 );

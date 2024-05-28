@@ -55,6 +55,10 @@ h1 {
 	color: #f1c40f;
 }
 
+h3 {
+	color: #818181;
+}
+
 /* Style page content */
 .main {
 	margin-left: 20%; /* Same as the width of the sidenav */

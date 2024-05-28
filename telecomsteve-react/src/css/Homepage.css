@@ -1,0 +1,159 @@
+.col-xs-12 {
+	width: 100%;
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-13,
+.col-lg-14,
+.col-lg-15,
+.col-lg-16,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-13,
+.col-xl-14,
+.col-xl-15,
+.col-xl-16,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+ul,
+menu,
+dir {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+.brand-logos {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.brand-logos li {
+	display: inline-block;
+	padding: 19px 25px 0;
+	vertical-align: middle;
+}
+
+.brands {
+	padding-top: 63px;
+	padding-bottom: 63px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+
+body {
+	height: 100%;
+	color: #ffffff;
+	font-family: "Lato", sans-serif;
+	background-color: #338fd7;
+}
+
+.left-20 {
+	left: 10%;
+}
+
+.headline {
+	font-size: 45px;
+	font-weight: 300;
+	line-height: 50px;
+	letter-spacing: -0.25px;
+}
+
+.subtitle {
+	margin: 20px 0 40px;
+	color: #9ad9ff;
+	font-size: 22.5px;
+	font-weight: 400;
+	line-height: 27px;
+	letter-spacing: -0.1px;
+}
+
+.cta {
+	padding: 13px 24px;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #7ec954;
+	transition-property: all;
+	transition-duration: 0.15s;
+	transition-timing-function: ease-in-out;
+
+	&:hover {
+		background-color: #9bd57b;
+	}
+}
